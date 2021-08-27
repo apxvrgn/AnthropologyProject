@@ -1,0 +1,291 @@
+[
+    {
+        "topText": "Level 1: Introduction",
+        "bottomText": "Scroll to move",
+        "animation": "fadeUp",
+        "color1": "",
+        "color2": "",
+        "events": [
+            { 
+                "trigger": {
+                    "type": "fact_coin",
+                    "left": "500px",
+                    "bottom": "0px"
+                },
+                "topText": "Problems in the Gaming Industry",
+                "bottomText": "Toxicity -- the quality of being very harmful or unpleasant in a pervasive or insidious way --- has always been an existing problem in the gaming community. However, a subset of this toxicity is an escalating problem.",
+                "playerResponse": ""
+            },
+            { 
+                "trigger": {
+                    "type": "fact_coin",
+                    "left": "1000px",
+                    "bottom": "0px"
+                },
+                "topText": "Toxicity Towards Women in Gaming",
+                "bottomText": "Women face toxicity from men in the gaming industry. Although the industry is expected to be worth around 115 billion U.S. Dollars in 2018, it is plagued with a sexist culture. The problems exist from within Game Developer Companies to even a Team in a online match. ",
+                "playerResponse": ""
+            },
+            { 
+                "trigger": {
+                    "type": "teleporter",
+                    "left": "1500px",
+                    "bottom": "0px"
+                },
+                "topText": "",
+                "bottomText": "",
+                "playerResponse": "nextLevel"
+            }
+        ],
+        "layers": [
+            {
+                "statics": [
+                    {
+                        "type": "cloud",
+                        "left": "200px",
+                        "bottom": "150px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "600px",
+                        "bottom": "160px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "700px",
+                        "bottom": "170px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "1200px",
+                        "bottom": "170px"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topText": "Level 2: Information",
+        "bottomText": "Scroll to move",
+        "animation": "fadeTopLeft",
+        "color1": "",
+        "color2": "",
+        "events": [
+            { 
+                "trigger": {
+                    "type": "demographic",
+                    "left": "500px",
+                    "bottom": "0px"
+                },
+                "topText": "Gaming Community Demographic",
+                "bottomText": "The amount of females playing games has risen over the years. In 2021, the gaming community population sits at around 32 billion. With 45% of that population being made up of females.",
+                "playerResponse": "jump"
+            },
+            { 
+                "trigger": {
+                    "type": "block",
+                    "left": "1000px",
+                    "bottom": "0px"
+                },
+                "topText": "The Scope",
+                "bottomText": "Recently, more and more victims have started speaking up about sexual harassment in the gaming community. Many influencers also started speaking up about the sexism in the community. The problems also exist within the industries itself. Two big game developer companies have been sued over sexual harasssment in the workplace.",
+                "playerResponse": "float"
+            },
+            { 
+                "trigger": {
+                    "type": "blank",
+                    "left": "1100px",
+                    "bottom": "0px"
+                },
+                "topText": "skip",
+                "bottomText": "skip",
+                "playerResponse": "fall"
+            },
+            { 
+                "trigger": {
+                    "type": "block",
+                    "left": "1200px",
+                    "bottom": "0px"
+                },
+                "topText": "The Problem",
+                "bottomText": "The sexism in the culture of the gaming industry is a severe problem that is targeted towards women.",
+                "playerResponse": "float"
+            },
+            { 
+                "trigger": {
+                    "type": "blank",
+                    "left": "1300px",
+                    "bottom": "0px"
+                },
+                "topText": "skip",
+                "bottomText": "skip",
+                "playerResponse": "fall"
+            },
+            { 
+                "trigger": {
+                    "type": "teleporter",
+                    "left": "1600px",
+                    "bottom": "0px"
+                },
+                "topText": "",
+                "bottomText": "",
+                "playerResponse": "nextLevel"
+            }
+        ],
+        "layers": [
+            {
+                "statics": [
+                    {
+                        "type": "cloud",
+                        "left": "200px",
+                        "bottom": "150px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "400px",
+                        "bottom": "170px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "600px",
+                        "bottom": "170px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "700px",
+                        "bottom": "200px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "1200px",
+                        "bottom": "170px"
+                    },
+                    {
+                        "type": "cloud",
+                        "left": "1600px",
+                        "bottom": "170px"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topText": "Level 3: The Toxic Online Community -- A Part of the Structure",
+        "bottomText": "Scroll to move",
+        "animation": "fadeTopLeft",
+        "color1": "",
+        "color2": "",
+        "events": [
+            { 
+                "trigger": {
+                    "type": "poison",
+                    "left": "600px",
+                    "bottom": "0px"
+                },
+                "topText": "Sexist Toxicity",
+                "bottomText": "Many female players who play online games face a lot of sexism from their teammates. A phrase like  “go back to the kitchen” is very commonly used by male teammates. This phrase is often used to say that women are less competent in games and uses the traditional belief that women are more “fragile” and belong in the kitchen or home.",
+                "playerResponse": "poison"
+            },
+            { 
+                "trigger": {
+                    "type": "poison",
+                    "left": "900px",
+                    "bottom": "0px"
+                },
+                "topText": "More Toxicity",
+                "bottomText": "Another phrase used is “you are ugly”. Using this phrase only enforces the belief that the social value of a women is in the appearance. Female gamers often have to face this sexist culture in the gaming community. This creates a very unwelcoming and unsafe enviroment.",
+                "playerResponse": "poison"
+            },
+            {
+                "trigger": {
+                    "type": "block",
+                    "left": "1100px",
+                    "bottom": "0px"
+                },
+                "topText": "Gas Lighting",
+                "bottomText": "Despite the toxicity, gas lighting --  specific type of manipulation where the manipulator is trying to get someone else (or a group of people) to question their own reality, memory or perceptions -- often happens. Many times when male players make sexist remarks towards their female teammates, they would respond with “I'm just joking”. This makes it even more frustrating and has a mental impact on female victims.",
+                "playerResponse": "float"
+            },
+            {
+                "trigger": {
+                    "type": "blank",
+                    "left": "1200px",
+                    "bottom": "0px"
+                },
+                "topText": "skip",
+                "bottomText": "skip",
+                "playerResponse": "fall"
+            },
+            { 
+                "trigger": {
+                    "type": "teleporter",
+                    "left": "1800px",
+                    "bottom": "0px"
+                },
+                "topText": "",
+                "bottomText": "",
+                "playerResponse": "nextLevel"
+            }
+        ],
+        "layers": [
+            {
+                "statics": [
+                  
+                ]
+            }
+        ]
+    },
+    {
+        "topText": "Level 4: The Workplace -- Another Part of the Structure",
+        "bottomText": "Scroll to move",
+        "animation": "fadeTopLeft",
+        "color1": "",
+        "color2": "",
+        "events": [
+            { 
+                "trigger": {
+                    "type": "poison",
+                    "left": "600px",
+                    "bottom": "0px"
+                },
+                "topText": "",
+                "bottomText": "",
+                "playerResponse": ""
+            },
+            { 
+                "trigger": {
+                    "type": "spike",
+                    "left": "700px",
+                    "bottom": "0px"
+                },
+                "topText": "Sexist Toxicity",
+                "bottomText": "",
+                "playerResponse": ""
+            }
+        ],
+        "layers": [
+            {
+                "statics": [
+                  
+                ]
+            }
+        ]
+    },
+    {
+        "topText": "Level 5: The Solutions",
+        "bottomText": "Scroll to move",
+        "animation": "fadeTopLeft",
+        "color1": "",
+        "color2": "",
+        "events": [
+            
+        ],
+        "layers": [
+            {
+                "statics": [
+                  
+                ]
+            }
+        ]
+    }
+]
